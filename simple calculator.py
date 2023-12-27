@@ -1,18 +1,15 @@
- print("Simple Calculator")
+print("Simple Calculator")
 print("Select operation:")
 print("1. Add")
 print("2. Subtract")
 print("3. Multiply")
 print("4. Divide")
-
 choice = input("Enter choice (1/2/3/4): ")
-
 if choice not in ('1', '2', '3', '4'):
     print("Invalid input. Please enter a valid choice.")
 else:
     num1 = float(input("Enter first number: "))
     num2 = float(input("Enter second number: "))
-
     if choice == '1':
         result = num1 + num2
         operation = "Addition"
