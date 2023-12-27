@@ -50,7 +50,7 @@ def main():
         {
             'text': 'Who wrote "Romeo and Juliet"?',
             'type': 'fill-in-the-blank',
-            'answer': 'Shakespeare'
+            'answer':'Shakespeare'
         },
     ]
     quiz = Quiz(questions)
