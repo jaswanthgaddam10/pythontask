@@ -1,5 +1,4 @@
 import random
-
 class Quiz:
     def __init__(self, questions):
         self.questions = questions
@@ -10,7 +9,6 @@ class Quiz:
     def present_question(self, question):
         print("\nQuestion:")
         print(question['text'])
-
         if question['type'] == 'multiple-choice':
             self.present_multiple_choice(question['options'])
         elif question['type'] == 'fill-in-the-blank':
